@@ -1,0 +1,24 @@
+/* 
+triangle: &#9662;
+.blue {
+    background-color: #47adf1
+}
+green: #64c0a9
+lightgrey: #f6f8f9
+.bg-purle: {
+    #9c72e4
+}
+red: #ea524b
+orange: #f19a2b
+pink: #d863a1
+lightgreen: #b0c926
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f6f8f9;
+}
