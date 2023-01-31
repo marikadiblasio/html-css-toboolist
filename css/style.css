@@ -23,6 +23,9 @@ body {
     background-color: #f6f8f9;
 }
 
+header {
+    padding: 10px;
+}
 /* background */
 .white-bg {
     background-color: #ffffff;
@@ -33,9 +36,8 @@ h1 {
     font-family:'Roboto', sans-serif;
     font-size: 40px;
     font-weight: 800px;
-    line-height: 80px;
+    vertical-align: middle;
 }
-
-.header-div{
-    height: 80px;
-}
+ .central-img {
+    vertical-align: middle;
+ }
