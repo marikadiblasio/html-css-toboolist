@@ -22,3 +22,20 @@ lightgreen: #b0c926
 body {
     background-color: #f6f8f9;
 }
+
+/* background */
+.white-bg {
+    background-color: #ffffff;
+}
+
+h1 {
+    display: inline-block;
+    font-family:'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 800px;
+    line-height: 80px;
+}
+
+.header-div{
+    height: 80px;
+}
