@@ -51,6 +51,12 @@ h1 {
 .bg-orange {
     background-color: #f19a2b;
 }
+.bg-pink {
+    background-color: #d863a1;
+}
+.bg-lightgreen {
+    background-color: #b0c926;
+}
 /* Text color */
 .white {
     color:#ffffff
@@ -85,9 +91,14 @@ padding-left: 5%;
 
 /* List */
 ul li {
-    list-style: none; 
+    list-style: none;
+    margin: 8px;
+    font-size: 14px;
  }
 
+ li:last-child {
+    margin-bottom: 20px;
+ }
  li div {
     display: inline-block;
     padding: 3px;
