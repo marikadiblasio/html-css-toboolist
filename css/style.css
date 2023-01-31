@@ -1,13 +1,9 @@
 /* 
 triangle: &#9662;
-.blue {
-    background-color: #47adf1
-}
-green: #64c0a9
+
+green #64c0a9
 lightgrey: #f6f8f9
-.bg-purle: {
-    #9c72e4
-}
+
 red: #ea524b
 orange: #f19a2b
 pink: #d863a1
@@ -18,26 +14,84 @@ lightgreen: #b0c926
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+
 }
 body {
     background-color: #f6f8f9;
 }
+/* header */
 
 header {
     padding: 10px;
 }
-/* background */
-.white-bg {
-    background-color: #ffffff;
-}
 
 h1 {
     display: inline-block;
-    font-family:'Roboto', sans-serif;
     font-size: 40px;
     font-weight: 800px;
     vertical-align: middle;
 }
  .central-img {
     vertical-align: middle;
+ } 
+/* background */
+ .white-bg {
+    background-color: #ffffff;
+}
+.bg-blue {
+    background-color: #47adf1;
+}
+.bg-purple {
+    background-color: #a681e7;
+}
+.bg-green {
+   background-color: #64c0a9;
+}
+.bg-orange {
+    background-color: #f19a2b;
+}
+/* Text color */
+.white {
+    color:#ffffff
+}
+/* Parte centrale */
+
+.container{
+margin-top: 3%;
+width: 80%;
+margin-left: 10%;
+border-radius: 5px;
+padding-left: 5%;
+}
+
+.add {
+    border-bottom: 3px solid #f6f8f9;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.b-rad {
+    border-radius: 4px;
+}
+ .add button {
+    border: 0px;
+    padding: 1%;
+ }
+
+ button.white-bg{
+    border: 1px solid #696e6f36;
+    color: #797f8136;
+ }
+
+/* List */
+ul li {
+    list-style: none; 
+ }
+
+ li div {
+    display: inline-block;
+    padding: 3px;
+    border-radius: 4px;
+    color:#ffffff;
+    font-size: 10px;
  }
