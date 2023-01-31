@@ -61,6 +61,13 @@ h1 {
 .white {
     color:#ffffff
 }
+
+.red { 
+    color: #ea524b;
+}
+.green {
+    color:#64c0a9;
+}
 /* Parte centrale */
 
 .container{
@@ -99,10 +106,23 @@ ul li {
  li:last-child {
     margin-bottom: 20px;
  }
- li div {
+ .badges {
     display: inline-block;
     padding: 3px;
     border-radius: 4px;
     color:#ffffff;
     font-size: 10px;
+ }
+
+ /* Circle */
+ .circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 7px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    border: 2px solid;
+    border-radius:50%;
  }
